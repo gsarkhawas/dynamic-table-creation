@@ -1,3 +1,4 @@
+
 for country_code in $(hive -S -e select Country from hospital_customers;)
 do
   echo ${country_code}
