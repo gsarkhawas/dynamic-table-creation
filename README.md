@@ -10,5 +10,5 @@ Hospital data which is stored in database,can be accessed through Hive query as 
 5. Use query - hive -e "select * from hospital_customers" in order to see the data of all customers around the world. As this data is too large to scan 
         and will take time, we can create tables based on countries for faster query scan.
 6. In order to extract the customers as per country, separate tables are generated using following query:
-        "hive -f create_country_table.sql". For example all the customers from India are present in Table_IND.
+        "hive -f create_country_table.sql". For example all the customers from India are present in Table_IND and all the customers from USA in respective table.
       
